@@ -1,7 +1,7 @@
 # HTTP health check DI
 
-[![CI CD](https://github.com/Arnab-Developer/ArnabDeveloper.HttpHealthCheck.DI/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/Arnab-Developer/ArnabDeveloper.HttpHealthCheck.DI/actions/workflows/ci-cd.yml)
-![Nuget](https://img.shields.io/nuget/v/ArnabDeveloper.HttpHealthCheck.DI)
+[![CI CD](https://github.com/Arnab-Developer/Arc.HtmlContent.DI/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/Arnab-Developer/Arc.HtmlContent.DI/actions/workflows/ci-cd.yml)
+![Nuget](https://img.shields.io/nuget/v/Arc.HtmlContent.DI)
 
 This is a library for html content core dependency injection for ASP.NET 5.
 
