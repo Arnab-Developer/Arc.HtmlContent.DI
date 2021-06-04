@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <LangVersion>9</LangVersion>
+    <Authors>Arnab Roy Chowdhury</Authors>
+    <Description>Html content core dependency injection for ASP.NET 5</Description>
+    <Copyright>Copyright (c) 2021 Arnab Roy Chowdhury</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/Arnab-Developer/Arc.HtmlContent.DI</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Arnab-Developer/Arc.HtmlContent.DI</RepositoryUrl>
+    <PackageTags>async,await,http,html</PackageTags>
+    <PackageReleaseNotes>Html content core dependency injection for ASP.NET 5</PackageReleaseNotes>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ArnabDeveloper.HtmlContent.Core" Version="1.0.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arc.HtmlContent.DI", "Arc.HtmlContent.DI\Arc.HtmlContent.DI.csproj", "{6B1AAEB0-A635-430E-ACBE-61EDEFBA1174}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arc.HtmlContent.DITests", "Arc.HtmlContent.DITests\Arc.HtmlContent.DITests.csproj", "{A9B18A9C-9BE8-47EB-89FE-96F8F3B2EF02}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1E63B751-A2AD-4C1F-B372-92EEFB54A49D}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\ci-cd.yml = .github\workflows\ci-cd.yml
+		CODE_OF_CONDUCT.md = CODE_OF_CONDUCT.md
+		CONTRIBUTING.md = CONTRIBUTING.md
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B1AAEB0-A635-430E-ACBE-61EDEFBA1174}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B1AAEB0-A635-430E-ACBE-61EDEFBA1174}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B1AAEB0-A635-430E-ACBE-61EDEFBA1174}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B1AAEB0-A635-430E-ACBE-61EDEFBA1174}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9B18A9C-9BE8-47EB-89FE-96F8F3B2EF02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9B18A9C-9BE8-47EB-89FE-96F8F3B2EF02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9B18A9C-9BE8-47EB-89FE-96F8F3B2EF02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9B18A9C-9BE8-47EB-89FE-96F8F3B2EF02}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2EB1813-6CE3-4655-8E58-4AE589A7C806}
+	EndGlobalSection
+EndGlobal
