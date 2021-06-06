@@ -11,12 +11,12 @@
     <PackageProjectUrl>https://github.com/Arnab-Developer/Arc.HtmlContent.DI</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Arnab-Developer/Arc.HtmlContent.DI</RepositoryUrl>
     <PackageTags>async,await,http,html</PackageTags>
-    <PackageReleaseNotes>Html content core dependency injection for ASP.NET 5</PackageReleaseNotes>
-    <Version>1.0.1</Version>
+    <PackageReleaseNotes>Update ArnabDeveloper.HtmlContent.Core NuGet package</PackageReleaseNotes>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="ArnabDeveloper.HtmlContent.Core" Version="1.0.1" />
+    <PackageReference Include="ArnabDeveloper.HtmlContent.Core" Version="1.0.2" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
   </ItemGroup>
 
