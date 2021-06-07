@@ -12,11 +12,11 @@
     <RepositoryUrl>https://github.com/Arnab-Developer/Arc.HtmlContent.DI</RepositoryUrl>
     <PackageTags>async,await,http,html</PackageTags>
     <PackageReleaseNotes>Update ArnabDeveloper.HtmlContent.Core NuGet package</PackageReleaseNotes>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="ArnabDeveloper.HtmlContent.Core" Version="1.0.2" />
+    <PackageReference Include="ArnabDeveloper.HtmlContent.Core" Version="1.0.3" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
   </ItemGroup>
 
