@@ -1,4 +1,4 @@
-# HTTP health check DI
+# HTML content DI
 
 [![CI CD](https://github.com/Arnab-Developer/Arc.HtmlContent.DI/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/Arnab-Developer/Arc.HtmlContent.DI/actions/workflows/ci-cd.yml)
 ![Nuget](https://img.shields.io/nuget/v/Arc.HtmlContent.DI)
