@@ -11,13 +11,17 @@
     <PackageProjectUrl>https://github.com/Arnab-Developer/Arc.HtmlContent.DI</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Arnab-Developer/Arc.HtmlContent.DI</RepositoryUrl>
     <PackageTags>async,await,http,html</PackageTags>
-    <PackageReleaseNotes>Update 'ArnabDeveloper.HtmlContent.Core' NuGet package</PackageReleaseNotes>
-    <Version>1.0.4</Version>
+    <PackageReleaseNotes>Write XML comments for all public types and members</PackageReleaseNotes>
+    <Version>1.0.5</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="ArnabDeveloper.HtmlContent.Core" Version="1.0.4" />
+    <PackageReference Include="ArnabDeveloper.HtmlContent.Core" Version="1.0.5" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
   </ItemGroup>
 
+  <PropertyGroup>
+    <DocumentationFile>Arc.HtmlContent.DI.xml</DocumentationFile>
+  </PropertyGroup>
+  
 </Project>

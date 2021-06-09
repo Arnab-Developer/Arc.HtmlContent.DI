@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Arc.HtmlContent.DI</name>
+    </assembly>
+    <members>
+        <member name="T:ArnabDeveloper.HttpHealthCheck.DI.ServiceCollectionExtensions">
+            <summary>
+            Service collection extensions
+            </summary>
+        </member>
+        <member name="M:ArnabDeveloper.HttpHealthCheck.DI.ServiceCollectionExtensions.AddHtmlContentService(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Add html content service
+            </summary>
+            <param name="services">IServiceCollection type object</param>
+            <returns>IServiceCollection type object</returns>
+        </member>
+    </members>
+</doc>
