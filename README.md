@@ -13,6 +13,15 @@ Use below command to install this in your .NET application.
 dotnet add package Arc.HtmlContent.DI
 ```
 
+Use the below code to add http health check dashboard into ASP.NET DI.
+
+```csharp
+public void ConfigureServices(IServiceCollection services)
+{
+    services.AddHtmlContentService();
+}
+```
+
 There is a 
 [WPF app](https://github.com/Arnab-Developer/ArnabDeveloper.HtmlContent.WpfApp) 
 which uses this library to show HTML responses. This is to show how you can use this 
