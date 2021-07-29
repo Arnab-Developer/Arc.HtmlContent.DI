@@ -5,19 +5,13 @@
 
 This is a library for 
 [html content core](https://github.com/Arnab-Developer/ArnabDeveloper.HtmlContent.Core) 
-dependency injection for ASP.NET 5.
-
-## How to install
-
-This library has been hosted in 
+dependency injection for ASP.NET 5. It has been hosted in 
 [NuGet](https://www.nuget.org/packages/Arc.HtmlContent.DI/). 
 Use below command to install this in your .NET application.
 
 ```
 dotnet add package Arc.HtmlContent.DI
 ```
-
-## How to use
 
 There is a 
 [WPF app](https://github.com/Arnab-Developer/ArnabDeveloper.HtmlContent.WpfApp) 
