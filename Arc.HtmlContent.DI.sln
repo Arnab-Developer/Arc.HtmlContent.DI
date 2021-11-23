@@ -1,17 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31321.278
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arc.HtmlContent.DI", "Arc.HtmlContent.DI\Arc.HtmlContent.DI.csproj", "{6B1AAEB0-A635-430E-ACBE-61EDEFBA1174}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arc.HtmlContent.DI", "Arc.HtmlContent.DI\Arc.HtmlContent.DI.csproj", "{6B1AAEB0-A635-430E-ACBE-61EDEFBA1174}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arc.HtmlContent.DITests", "Arc.HtmlContent.DITests\Arc.HtmlContent.DITests.csproj", "{A9B18A9C-9BE8-47EB-89FE-96F8F3B2EF02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arc.HtmlContent.DITests", "Arc.HtmlContent.DITests\Arc.HtmlContent.DITests.csproj", "{A9B18A9C-9BE8-47EB-89FE-96F8F3B2EF02}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1E63B751-A2AD-4C1F-B372-92EEFB54A49D}"
 	ProjectSection(SolutionItems) = preProject
 		.github\workflows\ci-cd.yml = .github\workflows\ci-cd.yml
-		CODE_OF_CONDUCT.md = CODE_OF_CONDUCT.md
-		CONTRIBUTING.md = CONTRIBUTING.md
 		LICENSE = LICENSE
 		README.md = README.md
 	EndProjectSection
