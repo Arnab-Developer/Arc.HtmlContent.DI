@@ -2,9 +2,6 @@ using ArnabDeveloper.HtmlContent.Core.Models;
 using ArnabDeveloper.HtmlContent.Core.Services;
 using ArnabDeveloper.HttpHealthCheck.DI;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using Xunit;
 
 namespace ArnabDeveloper.HttpHealthCheck.DITests
