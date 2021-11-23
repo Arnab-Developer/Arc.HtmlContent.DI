@@ -4,7 +4,7 @@ This is a library for
 [html content core](https://github.com/Arnab-Developer/ArnabDeveloper.HtmlContent.Core) 
 dependency injection for ASP.NET.
 
-Use the below code to add http health check dashboard into ASP.NET DI.
+Use the below code to add html content core into ASP.NET DI.
 
 ```csharp
 public void ConfigureServices(IServiceCollection services)
