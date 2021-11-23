@@ -1,9 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
-    <LangVersion>9</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
     <Authors>Arnab Roy Chowdhury</Authors>
     <Description>Html content core dependency injection for ASP.NET 5</Description>
     <Copyright>Copyright (c) 2021 Arnab Roy Chowdhury</Copyright>
@@ -11,17 +11,30 @@
     <PackageProjectUrl>https://github.com/Arnab-Developer/Arc.HtmlContent.DI</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Arnab-Developer/Arc.HtmlContent.DI</RepositoryUrl>
     <PackageTags>async,await,http,html</PackageTags>
-    <PackageReleaseNotes>Write XML comments for all public types and members</PackageReleaseNotes>
-    <Version>1.0.5</Version>
+    <PackageReleaseNotes>dotnet 6 upgrade</PackageReleaseNotes>
+    <Version>1.0.6</Version>
+    <DocumentationFile>Arc.HtmlContent.DI.xml</DocumentationFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="ArnabDeveloper.HtmlContent.Core" Version="1.0.5" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
   </ItemGroup>
 
-  <PropertyGroup>
-    <DocumentationFile>Arc.HtmlContent.DI.xml</DocumentationFile>
+  <ItemGroup>
+    <None Include="..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <PropertyGroup Condition="'$(GITHUB_ACTIONS)' == 'true'">
+    <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
   </PropertyGroup>
   
 </Project>
