@@ -4,13 +4,17 @@ This is a library for
 [html content core](https://github.com/Arnab-Developer/ArnabDeveloper.HtmlContent.Core) 
 dependency injection for ASP.NET.
 
-Use the below code to add html content core into ASP.NET DI.
+Install from NuGet.
+
+```
+dotnet add package Arc.HtmlContent.DI
+```
+
+Use the below code in `Program.cs` to add `html content core` into ASP.NET DI.
 
 ```csharp
-public void ConfigureServices(IServiceCollection services)
-{
-    services.AddHtmlContentService();
-}
+WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
+builder.Services.AddHtmlContentService();
 ```
 
 There is a 
