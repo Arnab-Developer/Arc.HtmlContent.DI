@@ -1,10 +1,9 @@
 # HTML content DI
 
-This is a library for 
-[html content core](https://github.com/Arnab-Developer/ArnabDeveloper.HtmlContent.Core) 
-dependency injection for ASP.NET.
+This is a library to add [html content core](https://github.com/Arnab-Developer/ArnabDeveloper.HtmlContent.Core) 
+into ASP.NET DI.
 
-Install from NuGet.
+Install from [NuGet](https://www.nuget.org/packages/Arc.HtmlContent.DI).
 
 ```
 dotnet add package Arc.HtmlContent.DI
