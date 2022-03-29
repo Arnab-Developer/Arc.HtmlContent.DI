@@ -5,7 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <Authors>Arnab Roy Chowdhury</Authors>
-    <Description>Html content core dependency injection for ASP.NET 5</Description>
+    <Description>Html content core dependency injection for ASP.NET</Description>
     <Copyright>Copyright (c) 2021 Arnab Roy Chowdhury</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/Arnab-Developer/Arc.HtmlContent.DI</PackageProjectUrl>
